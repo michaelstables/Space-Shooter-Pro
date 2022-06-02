@@ -33,6 +33,14 @@ public class GameManager : MonoBehaviour
         reset.performed -= OnRestart;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
     void OnRestart(InputAction.CallbackContext context)
     {
         if (isGameOver) { SceneManager.LoadScene("Game"); } 

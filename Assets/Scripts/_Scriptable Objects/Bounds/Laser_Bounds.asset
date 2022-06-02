@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Laser_Bounds
   m_EditorClassIdentifier: 
   maxYPosition: 8
-  minYPosition: 0
+  minYPosition: -7
   maxXPosition: 0
   minXPosition: 0
